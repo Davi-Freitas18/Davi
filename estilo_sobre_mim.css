@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+    background-color: lightsteelblue;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+/*Captando a tag table eu especifico a ela uma largura, para que todo o texto
+ que está inserido nela fica alinhado igualmente*/
+table {
+    border: 0;
+    width: 80%;
+}
+
+tr {
+    text-align: justify;
+}
+
+/*Utilizando text-ident, automaticamente todo parágrafo terá um espaço de quanto eu 
+determinar em pixels antes do texto digitado*/
+p {
+    text-indent: 10px;
+}
+
+/*Caso selecionar com o mouse o texto inserido em p, as linhas automatica-mente 
+ficam azuis*/
+p::selection{
+    background-color: rgb(23, 107, 217);
+}
+
+a:link{
+    background-color: white;
+    box-shadow: 0 0 6px 0px;
+    border-radius: 5px;
+}
+
+/*Se passar o mouse em cima do link a cor de suas letras mudam para vermelho*/
+a:hover {
+    color: red;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
