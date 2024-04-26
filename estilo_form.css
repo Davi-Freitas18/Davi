@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px solid black;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+body {
+    box-shadow: 0px 0px 1px 0px ;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+section {
+    width: 90px;
+    display: inline-block;
+}
+
+
+a:hover {
+    color: red;
+}
+
+#salvar:hover {
+    color: blue;
+    background-color: cornflowerblue;
+}
+
+#mensagem{
+    height: 250px;
+    width: 500px;
+}
